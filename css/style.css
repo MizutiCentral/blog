@@ -18,6 +18,16 @@ h3 {
     text-align: center;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+.headder {
+    text-align: center;
+    background-color: #0066ff;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    font-family: 'Sacramento', cursive;
+}
+
 /*selfintro*/
 .rogo{
     width: 100px;
@@ -42,6 +52,13 @@ h3 {
 .osirase{
     text-align: center;
     color: #0000ff;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+.syoukai {
+    text-align: center;
+    margin: auto;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
