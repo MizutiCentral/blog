@@ -1,5 +1,5 @@
 body {
-    width: 500px;
+    width: 100%;
     font-family: arial;
     font-size: medium;
     background-color: blanchedalmond;
@@ -54,7 +54,8 @@ h3 {
 }
 
 .top {
-    margin-left: 188px;
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
     color: black;
 }
