@@ -1,44 +1,59 @@
 body {
-    width: 100%;
+    width: auto;
     font-family: arial;
-    font-size: medium;
-    background-color: blanchedalmond;
+    font-size: large;
     font-family: 'Sacramento', cursive;
-    color: #0000cc;
+    background-image: url('SystemImages/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Sacramento');
 h1 {
     text-align: center;
-    font-family: 'Sacramento', cursive;
-    color: #0000cc;
+    color: #ff7b00;
 }
 
 h3 {
     text-align: center;
 }
 
+.page-item {
+    color: #ff7b00;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
 .headder {
     text-align: center;
-    background-color: #0066ff;
+    background-color: #ff7b00;
     color: white;
     padding-top: 60px;
     padding-bottom: 80px;
     font-family: 'Sacramento', cursive;
 }
 
+img {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.img img {
+    width: 100%;
+}
+
 /*selfintro*/
 .rogo{
-    width: 100px;
+    width: 30%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto; 
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .page-item {
     text-align: center;
-    width: 100%;
+    width: 25%;
     border: black;
     color: skyblue;
 }
@@ -49,9 +64,9 @@ h3 {
 }
 
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
-.osirase{
+.kodai{
     text-align: center;
-    color: #0000ff;
+    color: #ff7b00;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
@@ -63,6 +78,39 @@ h3 {
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
+.hyou {
+    width: 100px;
+}
+
+.yuuna_meow {
+    width: 70%;
+}
+
+.yuuna {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.twitter-bottun {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe.twitter-timeline {
+    width: 75% !important;
+}
+
+.twitter {
+    text-align: center;
+}
+
+.tweet {
+    width: 75%;
+    text-align: center;
+}
+
 /*Notfound*/
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
 .ntj {
@@ -72,10 +120,13 @@ h3 {
 }
 
 .top {
+    text-align: center !important;
+    margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
     color: black;
+    
 }
 
 .pagination {
