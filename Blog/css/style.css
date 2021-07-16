@@ -174,4 +174,17 @@ iframe.twitter-timeline {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Birthday*/
+.birthday {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
